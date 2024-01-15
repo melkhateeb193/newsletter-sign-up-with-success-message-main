@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 :root {
 --body-font: 'Roboto', sans-serif;
 --Tomato: hsl(4, 100%, 67%);
@@ -17,13 +16,12 @@ font-family: var(--body-font);
 font-size: 16px;
 }
 
-#secondImg 
+div#secondImg
 {
-  background-image: url(/assets/images/illustration-sign-up-desktop.svg);
+  background-image: url(images/illustration-sign-up-desktop.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100%;
   min-height: 300px;
 }
 main  {
