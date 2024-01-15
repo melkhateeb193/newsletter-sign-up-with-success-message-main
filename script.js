@@ -2,7 +2,6 @@ let Button = document.getElementById('Button');
 let validation = document.getElementById('validation');
 let input = document.getElementById('input_One');
 let targetEmail =/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-console.log(targetEmail)
 let main = document.getElementById('Main');
 let box = document.getElementById('Box');
 let span = document.getElementById('spanTwo');
