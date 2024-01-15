@@ -40,17 +40,11 @@ p{
 #Button{
 background-color: var(--Dark-Slate-Grey);
 }
-#Button:hover{
+#buttonTwo:hover,#Button:hover{
 background-color: var(--Tomato);
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
-a:hover {
-  color: white;
-}
+
 #Box{
   width: 400px;
 }
