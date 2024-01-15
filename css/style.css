@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+--body-font: 'Roboto', sans-serif;
+--Tomato: hsl(4, 100%, 67%);
+--Dark-Slate-Grey: hsl(235, 18%, 26%);
+--Grey: hsl(231, 7%, 60%);
+--White: hsl(0, 0%, 100%);
+}
+body {
+-ms-overflow-style: none; /* for Internet Explorer, Edge */
+scrollbar-width: none; /* for Firefox */
+overflow-y: scroll;
+height: 100vh;
+background-color: var(--Dark-Slate-Grey);
+font-family: var(--body-font);
+font-size: 16px;
+}
+
+#secondImg 
+{
+  background-image: url(/assets/images/illustration-sign-up-desktop.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 300px;
+}
+main  {
+  width: 700px !important;
+}
+.firstP {
+font-weight: 700;
+color: var(--Dark-Slate-Grey);
+}
+p{
+  margin:0;
+}
+.validation {
+  color: red;
+}
+#Button{
+background-color: var(--Dark-Slate-Grey);
+}
+#Button:hover{
+background-color: var(--Tomato);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: white;
+}
+#Box{
+  width: 400px;
+}
+.secondH1 {
+  color: var(--Dark-Slate-Grey);
+  font-weight: 700;
+  margin-top: 7%;
+}
+.secondp1 {
+  color: var(--Dark-Slate-Grey);
+  font-weight: 400;
+}
+#buttonTwo {
+  background-color: var(--Dark-Slate-Grey);
+}
+.spanTwo {
+font-weight: 600;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
